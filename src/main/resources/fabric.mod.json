@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "conanstuff",
+	"version": "${version}",
+	"name": "ConanStuff",
+	"description": "This is a mod made by Conaitus, because .... yeah",
+	"authors": [
+		"Conaitus"
+	],
+	"contact": {
+		"homepage": "https://solo.to/conaitus",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/conanstuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.conaitus.conanstuff.ConanStuff"
+		],
+		"client": [
+			"com.conaitus.conanstuff.ConanStuffClient"
+		],
+		"fabric-datagen": [
+			"com.conaitus.conanstuff.ConanStuffDataGenerator"
+		]
+	},
+	"mixins": [
+		"conanstuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
