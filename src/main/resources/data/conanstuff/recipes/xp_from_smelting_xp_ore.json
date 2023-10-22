@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 5,
+  "experience": 8,
+  "group": "xp",
+  "ingredient": {
+    "item": "conanstuff:xp_ore"
+  },
+  "result": "minecraft:stone"
+}

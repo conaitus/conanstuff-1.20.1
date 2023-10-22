@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "conanstuff:block/ruby_ore"
+    }
+  }
+}

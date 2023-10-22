@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 4,
+  "experience": 11,
+  "group": "ruby",
+  "ingredient": {
+    "item": "conanstuff:xp_ore"
+  },
+  "result": "minecraft:stone"
+}

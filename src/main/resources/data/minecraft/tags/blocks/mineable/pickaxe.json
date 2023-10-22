@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "conanstuff:xp_ore",
+    "conanstuff:ruby_ore",
+    "conanstuff:ruby_block"
+  ]
+}

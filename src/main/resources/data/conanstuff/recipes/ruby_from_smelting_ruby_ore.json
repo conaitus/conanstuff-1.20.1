@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 220,
+  "experience": 0.7,
+  "group": "ruby",
+  "ingredient": {
+    "item": "conanstuff:ruby_ore"
+  },
+  "result": "conanstuff:ruby"
+}

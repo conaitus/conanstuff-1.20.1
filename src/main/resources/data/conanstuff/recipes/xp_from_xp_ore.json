@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "conanstuff:xp_ore"
+    }
+  ],
+  "result": {
+    "item": "conanstuff:stone",
+    "count": 2
+  }
+}

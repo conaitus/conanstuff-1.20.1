@@ -1,5 +1,7 @@
 package com.conaitus.conanstuff;
 
+import com.conaitus.conanstuff.block.ModBlocks;
+import com.conaitus.conanstuff.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,9 @@ public class ConanStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Welcome To Mods!");
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
