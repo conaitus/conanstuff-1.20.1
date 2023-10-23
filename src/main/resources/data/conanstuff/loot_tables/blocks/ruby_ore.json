@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "conanstuff:ruby_ore"
+          "name": "conanstuff:ruby"
         }
       ],
       "conditions": [

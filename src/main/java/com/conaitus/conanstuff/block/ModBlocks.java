@@ -1,7 +1,6 @@
 package com.conaitus.conanstuff.block;
 
 import com.conaitus.conanstuff.ConanStuff;
-import com.conaitus.conanstuff.item.ModItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;

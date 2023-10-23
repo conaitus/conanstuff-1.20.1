@@ -1,6 +1,7 @@
 package com.conaitus.conanstuff.item;
 
 import com.conaitus.conanstuff.ConanStuff;
+import com.conaitus.conanstuff.item.custom.IronDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -12,9 +13,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item IRON_DETECTOR = registerItem("iron_detector", new IronDetectorItem(new FabricItemSettings().maxDamage(350)));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
+        entries.add(IRON_DETECTOR);
     }
 
 
