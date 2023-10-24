@@ -3,5 +3,6 @@
   "block.conanstuff.ruby_block": "Ruby Block",
   "block.conanstuff.xp_ore": "XP Ore",
   "block.conanstuff.ruby_ore": "Ruby Ore",
-  "item.conanstuff.iron_detector": "Iron Detector"
+  "item.conanstuff.iron_detector": "Iron Detector",
+  "block.conanstuff.sound_block": "Sound Block"
 }

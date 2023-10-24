@@ -1,6 +1,7 @@
 package com.conaitus.conanstuff.block;
 
 import com.conaitus.conanstuff.ConanStuff;
+import com.conaitus.conanstuff.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -27,11 +28,14 @@ public class ModBlocks {
     public static final Block XP_ORE = registerBlock("xp_ore",
             new ExperienceDroppingBlock(AbstractBlock.Settings.create().luminance(value -> 2).strength(2.2f, 4.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool(), UniformIntProvider.create(12, 18)));
 
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY_BLOCK);
         entries.add(RUBY_ORE);
         entries.add(XP_ORE);
+        entries.add(SOUND_BLOCK);
     }
 
     private static Block registerBlock(String name, Block block){
